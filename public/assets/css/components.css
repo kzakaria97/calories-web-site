@@ -1,0 +1,31 @@
+.footer__main-container {
+    color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__primary-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+    background-color: rgb(38, 33, 33);
+}
+
+.footer__secondary-container {
+    background-color: rgb(25, 24, 24);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.social__icons {
+    width: 10px;
+    color: red;
+}
+
+.footer__section {
+}
