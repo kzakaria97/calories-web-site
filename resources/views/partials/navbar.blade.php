@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <ul class="navbar_li" id="nav">
     <li>
         <a href="" id="nav_li1">
@@ -29,3 +30,8 @@
         </a>
     </li>
 </ul>
+=======
+<nav>
+
+</nav>
+>>>>>>> nawfal
