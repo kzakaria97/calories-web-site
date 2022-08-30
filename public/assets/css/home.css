@@ -2,9 +2,7 @@
 h2 {
     font-size: var(--h2-font-size);
 }
-p {
-    font-size: var(--p-font-size);
-}
+
 .home__container {
     height: 100vh;
     width: 100%;
