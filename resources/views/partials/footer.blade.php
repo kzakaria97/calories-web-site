@@ -46,7 +46,7 @@
     <p class="footer__paragraphe-secondary">
         Réalisé par :
         <a href="https://github.com/Nelnaji">Elkhaznagi Nawfal</a> &&
-        <a href="https://github.com/kzakaria97">Zakaria Kastit</a>
+        <a href="https://github.com/kzakaria97">Kastit Zakaria</a>
     </p>
 </div>
 
