@@ -13,7 +13,7 @@
 
 <section class="footer__section links">
     <p>
-        Socials :
+        Socials:
         </p>
         <div class="business__links-container">
             <a href="">Home</a>
@@ -30,13 +30,14 @@
 
 <section class="footer__section socials">
    <p>
-    Socials :
+    Socials:
     </p>
     <div class="social__links-container">
 
         <a  href="#"><x-css-facebook class="social__icons"/></a>
         <a  href="#"><x-bi-twitter class="social__icons"/></a>
         <a  href="#"><x-css-instagram class="social__icons"/></a>
+        <a href="#"><x-bi-github class="social__icons"/></a>
     </div>
 </section>
 </div>
