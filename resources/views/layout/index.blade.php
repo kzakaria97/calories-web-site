@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/navbar.css">
     <link rel="stylesheet" href="./assets/css/general.css">
     <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/carousel.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
 
     @viteReactRefresh
@@ -15,6 +16,7 @@
 
     <title>Compteur de calories</title>
     <script src="./assets/js/scroll_navbar.js" defer></script>
+    <script src="./assets/js/carousel.js" defer></script>
 </head>
 <body>
     @include('partials.navbar')

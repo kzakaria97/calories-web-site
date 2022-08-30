@@ -1,0 +1,48 @@
+#carousel {
+    width: 700px;
+    height: 350px;
+    border: solid 4px #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+#container {
+    width: 700px;
+    height: 350px;
+}
+.photo {
+    width: 700px;
+    height: 350px;
+    margin: 0;
+    display: inline-block;
+    background-size: cover;
+}
+.button {
+    position: absolute;
+    width: 10rem;
+    cursor: pointer;
+    top: 120px;
+    color: #fff;
+}
+#gauche {
+    left: 0;
+    opacity: 0.4;
+    transform: rotate(0deg);
+    transition: all 0.4 ease;
+}
+#droit {
+    right: 0;
+    opacity: 0.4;
+    transform: rotate(0deg);
+    transition: all 0.4 ease;
+}
+#gauche:hover {
+    transform: rotate(0deg) scale(1.1);
+    opacity: 1;
+    transition: all 0.4 ease;
+}
+#droit:hover {
+    transform: rotate(0deg) scale(1.1);
+    opacity: 1;
+    transition: all 0.4 ease;
+}

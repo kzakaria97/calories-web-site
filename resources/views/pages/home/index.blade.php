@@ -15,7 +15,7 @@
             <button type="submit">JE M'ABONNE</button>
         </div>
         
-        <div class="div2_input_NewsLetter">
+        {{-- <div id="carousel" class="div2_input_NewsLetter">
             <p class="arrow_carousel">
                 <x-zondicon-arrow-thick-left />
             </p>
@@ -28,6 +28,12 @@
             <p class="arrow_carousel">
                 <x-zondicon-arrow-thick-right />
             </p>
+        </div> --}}
+        <div id="carousel">
+            <div id="container">
+            </div>
+            <p class="button" id="gauche"><x-zondicon-arrow-thick-left /></p>
+            <p class="button" id="droit"><x-zondicon-arrow-thick-right /></p>
         </div>
     </div>
 </div>

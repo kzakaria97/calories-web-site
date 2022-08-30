@@ -23,12 +23,11 @@ h2 {
     padding: 0.5%;
 }
 .newsLetter__container {
-    margin-top: 5%;
-    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 .newsLetter__container h2 {
     margin-bottom: 3%;
-    margin-left: 3%;
 }
 .div_main_newsLetter {
     display: flex;
@@ -60,7 +59,4 @@ h2 {
     align-items: center;
     justify-content: space-between;
     gap: 8rem;
-}
-.arrow_carousel {
-    width: 5rem;
 }
