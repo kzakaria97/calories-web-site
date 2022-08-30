@@ -1,10 +1,7 @@
 <nav>
-
     <ul class="navbar_li" id="nav">
         <li>
-            <a href="" id="nav_li1">
-                LOGO
-            </a>
+            <a href="" id="nav_li1">LOGO</a>
         </li>
         <li>
             <a href="" id="nav_li2">
@@ -23,12 +20,10 @@
         </li>
         <li>
             <a href="" id="nav_li5">
-            INSCRIPTION /
-        </a>
-        <a href=""id="nav_li6">
+            INSCRIPTION</a> /
+        <a href="" id="nav_li6">
 
-            CONNEXION
-        </a>
+            CONNEXION</a>
     </li>
 </ul>
 </nav>

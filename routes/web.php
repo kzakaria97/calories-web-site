@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Affichage
+
 Route::get('/', function () {
     return view('pages.home.index');
 });
+
+
+Route::put('/db/{$id}', [DashboardController::class, 'index'])->name('dashboard');
