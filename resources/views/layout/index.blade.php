@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./assets/css/home.css">
     <link rel="stylesheet" href="./assets/css/carousel.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/register.css">
+
 
     @viteReactRefresh
     @vite('resources/js/app.jsx')
@@ -21,7 +23,7 @@
 <body>
     @include('partials.navbar')
     @yield('content')
-    @include('partials.footer')
+    @include('partials.footer') 
 </body>
 </html>
 

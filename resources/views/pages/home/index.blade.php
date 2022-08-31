@@ -15,6 +15,7 @@
             <button type="submit">JE M'ABONNE</button>
         </div>
         
+        
         {{-- <div id="carousel" class="div2_input_NewsLetter">
             <p class="arrow_carousel">
                 <x-zondicon-arrow-thick-left />
