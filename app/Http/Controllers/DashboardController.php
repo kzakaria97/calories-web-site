@@ -3,8 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\test;
-use App\Models\TDEEData;
-use App\Models\Dashboard;
+use Illuminate\Http\Request;
 use App\Http\Requests\StoreDashboardRequest;
 use App\Http\Requests\UpdateDashboardRequest;
 
@@ -15,9 +14,9 @@ class DashboardController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index($id)
     {
-        $utilisateur = test::all();
+        $utilisateur = test::find($id);
         return view('pages.dashboard.index', compact('utilisateur'));
     }
 
@@ -28,9 +27,13 @@ class DashboardController extends Controller
      */
 
         // //update
-    public function updatedata(){
+    public function updatePC(Request $request, $id){
 
-
+$updatePC = test::find($id);
+$updatePC->poid = $request->poid;
+$updatePC->calorie = $request->calorie;
+$updatePC->save();
+return redirect('/')->back();
 
     }
 

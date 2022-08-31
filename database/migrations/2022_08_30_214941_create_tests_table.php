@@ -20,7 +20,7 @@ return new class extends Migration
             $table->boolean('sexe');
             $table->integer('poid');
             $table->integer('calorie');
-            $table->integer('activity');
+            $table->date('jour');
             $table->timestamps();
         });
     }

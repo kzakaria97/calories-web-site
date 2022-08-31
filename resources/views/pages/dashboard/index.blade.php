@@ -2,17 +2,15 @@
 @section('content')
 <p><br><br><br></p>
 
-@foreach ($utilisateur as $item)
-
-@endforeach
-<p>
-
-    {{$item->id}}
-
-    {{$item->calorie}}
-    {{$item->poid}}
-
-</p>
 
 
+<form action="/{{$utilisateur->id}}/update" method="post">
+@csrf
+@method('PUT')
+<h2>{{$utilisateur->jour}}</h2>
+
+<div>Poid : <input type="number" value="{{$utilisateur->poid}}" name="poid"></div>
+<div>Calories : <input type="number" value="{{$utilisateur->calorie}}" name="calorie"></div>
+<button type="submit">Update</button>
+</form>
 @endsection
