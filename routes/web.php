@@ -21,4 +21,4 @@ Route::get('/', function () {
 });
 
 
-Route::put('/db/{$id}', [DashboardController::class, 'index'])->name('dashboard');
+Route::get('/db', [DashboardController::class, 'index'])->name('dashboard');

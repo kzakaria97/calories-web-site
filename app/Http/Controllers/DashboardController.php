@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\test;
+use App\Models\TDEEData;
 use App\Models\Dashboard;
 use App\Http\Requests\StoreDashboardRequest;
 use App\Http\Requests\UpdateDashboardRequest;
@@ -15,7 +17,8 @@ class DashboardController extends Controller
      */
     public function index()
     {
-        return view('pages.dashboard.index');
+        $utilisateur = test::all();
+        return view('pages.dashboard.index', compact('utilisateur'));
     }
 
     /**
@@ -23,10 +26,14 @@ class DashboardController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-        //
+
+        // //update
+    public function updatedata(){
+
+
+
     }
+
 
     /**
      * Store a newly created resource in storage.

@@ -2,12 +2,17 @@
 @section('content')
 <p><br><br><br></p>
 
-<form action="/db/{{$utilisateur->id}}" method="post">
-@csrf
-@method('PUT')
+@foreach ($utilisateur as $item)
 
-<input type="text" value="{{$utilisateur->calorie}}">
-<input type="text" value="{{$utilisateur->poid}}">
+@endforeach
+<p>
 
-</form>
+    {{$item->id}}
+
+    {{$item->calorie}}
+    {{$item->poid}}
+
+</p>
+
+
 @endsection
