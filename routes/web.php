@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\RegisterController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +19,10 @@ Route::get('/', function () {
     return view('pages.home.index');
 });
 
-Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/connexion',[LoginController::class,'Login'])->name('login');
+Route::get('/inscription',[RegisterController::class,'Register'])->name('register');
+
+
+Auth::routes();

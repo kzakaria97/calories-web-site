@@ -9,7 +9,7 @@ document.body.onload = function () {
         div = document.createElement("div");
         div.className = "photo";
         div.style.backgroundImage =
-            "url('../assets/image/carousel/img" + i + ".jpg')";
+            "url('./assets/image/carousel/img" + i + ".jpg')";
         container.appendChild(div);
     }
 };

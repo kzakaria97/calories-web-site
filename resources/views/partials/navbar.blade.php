@@ -22,12 +22,11 @@
             </a>
         </li>
         <li>
-            <a href="" id="nav_li5">
+            <a href={{route('register')}} id="nav_li5">
             INSCRIPTION /
         </a>
-        <a href=""id="nav_li6">
-
-            CONNEXION
+        <a href={{route('login')}} id="nav_li6">
+             CONNEXION
         </a>
     </li>
 </ul>

@@ -11,6 +11,7 @@
     padding-bottom: 3rem;
     background-color: black;
     width: 100%;
+    height: 100vh;
 }
 .cardMain {
     display: flex;
@@ -19,9 +20,9 @@
     justify-content: flex-start;
     padding-top: 15rem;
     background-color: white;
-    border-radius: 20%;
+    border-radius: 10%;
     margin-top: 3rem;
-    width: 60rem;
+    width: 55rem;
     height: 70rem;
     gap: 5rem;
 }
@@ -47,11 +48,18 @@
 }
 .btn_sign_up {
     border: none;
-    width: 10rem;
+    width: 15rem;
     font-size: 2rem;
+    margin-top: 10rem;
+    background-color: black;
+    color: white;
+    padding: 1rem;
 }
 .input1 {
     height: 4rem;
     size: 3rem;
     font-size: 1.5rem;
+}
+.create_account {
+    color: blue;
 }
