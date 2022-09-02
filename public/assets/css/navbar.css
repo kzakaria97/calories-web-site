@@ -6,6 +6,7 @@
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     width: 100%;
+    z-index: 1;
 }
 .navbar_li li a {
     color: black;
