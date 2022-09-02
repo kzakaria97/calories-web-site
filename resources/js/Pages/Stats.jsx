@@ -2,7 +2,8 @@ import Navigation from "../Components/Navigation";
 import UserStats from "../Components/Stats/UserStats";
 import "../../css/css/dashboard.css";
 
-export default function Stats() {
+export default function Stats({ userDuController }) {
+    console.log(userDuController);
     return (
         <main className="main__container">
             <Navigation />

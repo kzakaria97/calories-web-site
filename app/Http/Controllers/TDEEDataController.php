@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\TDEEData;
+use App\Models\test;
 use App\Http\Requests\StoreTDEEDataRequest;
 use App\Http\Requests\UpdateTDEEDataRequest;
 
@@ -13,9 +13,11 @@ class TDEEDataController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(
+            )
     {
-
+$userDuController = test::all();
+return view('Stats', compact('userDuController'));
     }
 
     /**

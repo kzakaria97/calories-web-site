@@ -11,7 +11,7 @@
     <link rel="stylesheet" href={{asset("assets/css/footer.css")}}>
 
     <!-- Scripts -->
-    @routes
+   
     @viteReactRefresh
     @vite('resources/js/app.jsx')
     @inertiaHead

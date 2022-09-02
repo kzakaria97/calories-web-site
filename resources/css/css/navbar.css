@@ -20,10 +20,22 @@
     height: 95vh;
     width: 10vw;
     justify-content: space-around;
-    background-color: aqua;
+    background-color: rgb(170, 155, 255);
     align-items: center;
     font-size: 2rem;
 }
 
-.db__nav-container {
+.db__nav-container a {
+    text-decoration: none;
+    transition: 100ms;
+}
+
+.db__nav-container a:link,
+.db__nav-container a:visited {
+    text-transform: uppercase;
+    color: rgb(175, 2, 255);
+}
+
+.db__nav-container a:hover {
+    color: rgb(51, 113, 247);
 }
