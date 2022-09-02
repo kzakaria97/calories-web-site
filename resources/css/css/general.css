@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+:root {
+    --h2-font-size: 3rem;
+    --p-font-size: 2rem;
+}
+
+html {
+    /* 62.5% of 16PX = 10px, which means that 1rem  = 10px */
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}

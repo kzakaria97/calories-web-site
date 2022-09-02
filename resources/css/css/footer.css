@@ -1,0 +1,67 @@
+.footer__main-container {
+    color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.footer__primary-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+    background-color: rgb(38, 33, 33);
+    width: 100%;
+    padding: 2rem;
+}
+
+.footer__secondary-container {
+    background-color: rgb(25, 24, 24);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+
+.social__icons {
+    width: 2rem;
+}
+
+.footer__section.links {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer__section.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.social__links-container {
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(217, 217, 217);
+    transition: 100ms;
+    cursor: pointer;
+}
+
+footer a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.business__links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}

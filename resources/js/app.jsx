@@ -1,4 +1,8 @@
-import "../css/app.css";
+import "../css/css/general.css";
+import "../css/css/footer.css";
+import "../css/css/home.css";
+import "../css/css/navbar.css";
+
 import React from "react";
 import { render } from "react-dom";
 import { createInertiaApp } from "@inertiajs/inertia-react";

@@ -16,12 +16,18 @@ use App\Http\Controllers\DashboardController;
 
 // Affichage
 
-Route::get('/', function () {
-    return view('pages.home.index');
-});
-
 
 
 Route::get('/db', function () {
     return inertia('Home');
+ });
+
+ Route::get('/db/stats', function () {
+    return inertia('Stats');
+ });
+ Route::get('/db/profile', function () {
+    return inertia('Profile');
+ });
+ Route::get('/db/compare', function () {
+    return inertia('Compare');
  });
