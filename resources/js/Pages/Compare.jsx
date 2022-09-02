@@ -3,7 +3,7 @@ export default function Compare() {
     return (
         <main>
             <Navigation />
-            <main>Just having fun with inertia and react mon Compare</main>;
+            <aside>Just having fun with inertia and react mon Compare</aside>;
         </main>
     );
 }

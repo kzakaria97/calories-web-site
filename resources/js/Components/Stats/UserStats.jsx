@@ -1,31 +1,48 @@
-import { Chart as ChartJS, defaults } from "chart.js";
+import { useState, useEffect } from "react";
 import { Chart } from "react-chartjs-2";
+import {
+    Chart as ChartJS,
+    CategoryScale,
+    LineController,
+    LineElement,
+    PointElement,
+    LinearScale,
+    Title,
+} from "chart.js";
+
+import { Line } from "react-chartjs-2";
+ChartJS.register(
+    CategoryScale,
+    LineController,
+    LineElement,
+    PointElement,
+    LinearScale,
+    Title
+);
 
 export default function UserStats() {
-    const labels = ["January", "February", "March", "April", "May", "June"];
-
-    const data = {
-        labels: labels,
+    const [userData, setUserData] = useState({
+        labels: [
+            "Lundi",
+            "Mardin",
+            "Mercredi",
+            "Jeudi",
+            "Vendredi",
+            "Samedi",
+            "Dimanche",
+        ],
         datasets: [
             {
-                label: "My First dataset",
+                label: "User Weight Progression",
                 backgroundColor: "rgb(255, 99, 132)",
                 borderColor: "rgb(255, 99, 132)",
-                data: [0, 10, 5, 2, 20, 30, 45],
+                data: [10, 50, 560, 605, 204, 20414, 550],
             },
         ],
-    };
-
-    const config = {
-        type: "line",
-        data: data,
-        options: {},
-    };
-
-    const myChart = new Chart(document.getElementById("myChart"), config);
+    });
     return (
         <div>
-            <canvas id="myChart"></canvas>
+            <Line data={userData} />
         </div>
     );
 }

@@ -1,5 +1,6 @@
 <?php
 
+use inertia\inertia;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 

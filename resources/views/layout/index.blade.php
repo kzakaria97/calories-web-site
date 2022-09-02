@@ -17,8 +17,8 @@
     @inertiaHead
 
     <title>Compteur de calories</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
     <script src="./assets/js/scroll_navbar.js" defer></script>
+
 </head>
 <body>
     @include('partials.navbar')
