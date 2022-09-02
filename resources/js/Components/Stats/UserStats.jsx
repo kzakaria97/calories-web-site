@@ -36,7 +36,9 @@ export default function UserStats() {
                 label: "User Weight Progression",
                 backgroundColor: "rgb(255, 99, 132)",
                 borderColor: "rgb(255, 99, 132)",
-                data: [10, 50, 560, 605, 204, 20414, 550],
+
+                // ici serront transmise les données sous forme de tableau
+                data: [90, 89, 88.5, 89, 88, 87, 87.5],
             },
         ],
     });
