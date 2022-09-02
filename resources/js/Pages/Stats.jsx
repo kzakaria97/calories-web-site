@@ -1,7 +1,17 @@
+import Navigation from "../Components/Navigation";
+import UserStats from "../Components/Stats/UserStats";
+
 export default function Stats() {
     return (
-        <Navigation>
-            <main>Just having fun with inertia and react mon Stats</main>;
-        </Navigation>
+        <main>
+            <Navigation />
+            <aside>
+                Just having fun with inertia and react mon Stats
+                <div>
+                    <UserStats />
+                </div>
+            </aside>
+            ;
+        </main>
     );
 }
