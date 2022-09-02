@@ -9,9 +9,13 @@
     <link rel="stylesheet" href="./assets/css/general.css">
     <link rel="stylesheet" href="./assets/css/home.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <title inertia>{{ config('app.name', 'Laravel') }}</title>
 
+    <!-- Scripts -->
+    @routes
     @viteReactRefresh
     @vite('resources/js/app.jsx')
+    @inertiaHead
 
     <title>Compteur de calories</title>
     <script src="./assets/js/scroll_navbar.js" defer></script>

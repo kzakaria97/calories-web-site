@@ -21,11 +21,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/db/{id}', [DashboardController::class, 'index'])->name('dashboard');
-Route::put('/{id}/update',[DashboardController::class,'updatePC']);
 
-Route::get('/dashboard', function(){
-    return view('pages.dashboard.index');
-});
-
-Route::view('/{path?}', 'app')->where('path', '.*')->name('react');
+Route::get('/db', function () {
+    return inertia('Home');
+ });

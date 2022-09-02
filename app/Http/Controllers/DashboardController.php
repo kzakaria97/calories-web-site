@@ -17,8 +17,7 @@ class DashboardController extends Controller
      */
     public function index($id)
     {
-        $utilisateur = TDEEData::find($id);
-        return view('pages.dashboard.index', compact('utilisateur'));
+       
     }
 
     /**
