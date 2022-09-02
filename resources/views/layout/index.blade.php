@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./assets/css/navbar.css">
-    <link rel="stylesheet" href="./assets/css/general.css">
-    <link rel="stylesheet" href="./assets/css/home.css">
-    <link rel="stylesheet" href="./assets/css/footer.css">
-    <title inertia>{{ config('app.name', 'Laravel') }}</title>
+    <link rel="stylesheet" href={{asset("assets/css/navbar.css")}}>
+    <link rel="stylesheet" href={{asset("assets/css/general.css")}}>
+    <link rel="stylesheet" href={{asset("assets/css/home.css")}}>
+    <link rel="stylesheet" href={{asset("assets/css/footer.css")}}>
 
     <!-- Scripts -->
     @routes
