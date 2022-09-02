@@ -1,4 +1,7 @@
 export default function Stats() {
-    const heading = "Je suis la page stats";
-    return <div> {heading}</div>;
+    return (
+        <Navigation>
+            <main>Just having fun with inertia and react mon Stats</main>;
+        </Navigation>
+    );
 }

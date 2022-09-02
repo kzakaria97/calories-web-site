@@ -1,4 +1,8 @@
+import Navigation from "../Components/Navigation";
 export default function Home() {
-    const heading = "Je suis la page home home";
-    return <div> {heading}</div>;
+    return (
+        <Navigation>
+            <main>Just having fun with inertia and react</main>;
+        </Navigation>
+    );
 }
