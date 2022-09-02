@@ -1,10 +1,7 @@
 <nav>
-
     <ul class="navbar_li" id="nav">
         <li>
-            <a href="" id="nav_li1">
-                LOGO
-            </a>
+            <a href="" id="nav_li1">LOGO</a>
         </li>
         <li>
             <a href="" id="nav_li2">

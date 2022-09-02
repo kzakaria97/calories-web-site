@@ -13,12 +13,16 @@
     <link rel="stylesheet" href={{asset("assets/css/footer.css")}}>
     <link rel="stylesheet" href={{asset("assets/css/carousel.css")}}>
 
+    <!-- Scripts -->
+   
     @viteReactRefresh
     @vite('resources/js/app.jsx')
+    @inertiaHead
 
     <title>Compteur de calories</title>
     <script src="./assets/js/scroll_navbar.js" defer></script>
     <script src="./assets/js/carousel.js" defer></script>
+
 </head>
 <body>
     @include('partials.navbar')

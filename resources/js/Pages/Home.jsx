@@ -1,11 +1,9 @@
-import { FaBeer } from "react-icons/fa";
-import { AiFillHeart } from "react-icons/ai";
-
+import Navigation from "../Components/Navigation";
 export default function Home() {
-    const heading = "Je suis la home ls dlnflk ";
     return (
-        <div>
-            {heading} <FaBeer /> <AiFillHeart />
-        </div>
+        <main className="main__container">
+            <Navigation />
+            <aside>Just having fun with inertia and react mon Stats</aside>
+        </main>
     );
 }

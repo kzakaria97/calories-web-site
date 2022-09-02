@@ -1,8 +1,11 @@
 <?php
 
+use inertia\inertia;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
-use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +29,20 @@ Route::get('/inscription',[RegisterController::class,'Register'])->name('registe
 
 
 Auth::routes();
+// Affichage
+
+
+
+Route::get('/db', function () {
+    return inertia('Home');
+ });
+
+ Route::get('/db/stats', function () {
+    return inertia('Stats');
+ });
+ Route::get('/db/profile', function () {
+    return inertia('Profile');
+ });
+ Route::get('/db/compare', function () {
+    return inertia('Compare');
+ });
